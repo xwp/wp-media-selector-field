@@ -6,6 +6,7 @@
  * Author URI: http://x-team.com/wordpress/
  * Version: 0.4
  * License: GPLv2+
+ * Text Domain: media-selector-field
  */
 
 /**
@@ -61,9 +62,9 @@ class XTeam_Media_Selector_Field {
 				'screen_base'   => 'post',
 				'multiple'      => false,
 				'type'          => '_all',
-				'frame_title'   => __( 'Select', 'media-selector' ), // Title of the media manager lightbox
-				'select_button' => __( 'Select', 'media-selector' ), // Button text
-				'insert_button' => __( 'Insert', 'media-selector' ), // Button text
+				'frame_title'   => __( 'Select', 'media-selector-field' ), // Title of the media manager lightbox
+				'select_button' => __( 'Select', 'media-selector-field' ), // Button text
+				'insert_button' => __( 'Insert', 'media-selector-field' ), // Button text
 				'preview_size'  => 'thumbnail',
 				'animate'       => 500,
 			);
