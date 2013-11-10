@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Media Selector Field
  * Description: Makes a field available for selecting an image from the media library
- * Author: Dzikri Aziz, X-Team
+ * Author: X-Team, Dzikri Aziz, Weston Ruter
  * Author URI: http://x-team.com/wordpress/
  * Version: 0.4
  * License: GPLv2+
