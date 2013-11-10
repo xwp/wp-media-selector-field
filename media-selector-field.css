@@ -1,0 +1,50 @@
+.xteam-media-list {
+	margin-top:0;
+}
+.xteam-media-list li {
+	float:left;
+	text-align:center;
+	position:relative;
+}
+.xteam-media-list .attachment-preview {
+	height:100px;
+	width:100px;
+}
+.xteam-media-list .filename {
+	line-height:1.3;
+}
+.xteam-media-list .type-image .filename {
+	display:none;
+}
+.xteam-media-list img {
+	width:auto;
+	max-width:100%;
+	height:auto !important;
+	vertical-align:middle;
+}
+.xteam-media-list .title {
+	display:block;
+	text-align:center;
+	height:1em;
+	line-height:1em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.wrap .xteam-media-selector p {
+	clear:both;
+	padding-left:10px;
+	font-style:normal;
+}
+.wrap .xteam-media-selector.single-file li {
+	margin:0 10px 10px 0;
+}
+.wrap .xteam-media-selector.single-file p {
+	padding-left:0;
+}
+
+.widget-content .xteam-media-selector .attachment {
+	margin: 0 5px 10px;
+}
+.wrap .widget-content .xteam-media-selector p {
+	padding-left: 5px;
+}
