@@ -73,7 +73,6 @@ class XTeam_Media_Selector_Field {
 
 			add_action( 'admin_enqueue_scripts',              array( __CLASS__, 'enqueue_assets' ) );
 			add_action( 'customize_controls_enqueue_scripts', array( __CLASS__, 'enqueue_assets' ) );
-			add_action( 'customize_controls_print_styles',    array( __CLASS__, '_customizer_screen_styles' ), 99 );
 		}
 
 		$new_entry = wp_parse_args( $options, self::$defaults );
@@ -119,16 +118,12 @@ class XTeam_Media_Selector_Field {
 			false,
 			self::VERSION
 		);
-	}
 
-
-	public static function _customizer_screen_styles() {
-		?>
-			<style>
-				.media-modal { z-index: 600000 }
-				.media-modal-backdrop { z-index: 599999 }
-			</style>
-		<?php
+		$customizer_style = array(
+			'.media-modal { z-index: 600000 }',
+			'.media-modal-backdrop { z-index: 599999 }',
+		);
+		wp_add_inline_style( 'customize-controls', implode( "\n", $customizer_style ) );
 	}
 
 
