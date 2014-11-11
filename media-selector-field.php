@@ -2,15 +2,15 @@
 /**
  * Plugin Name: Media Selector Field
  * Description: Makes a field available for selecting an image from the media library
- * Author: X-Team, Dzikri Aziz, Weston Ruter
- * Author URI: http://x-team.com/wordpress/
+ * Author: XWP, Dzikri Aziz, Weston Ruter
+ * Author URI: https://xwp.co/
  * Version: 0.4
  * License: GPLv2+
  * Text Domain: media-selector-field
  */
 
 /**
- * Copyright (c) 2013 X-Team (http://x-team.com/)
+ * Copyright (c) 2013 XWP (https://xwp.co/)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2 or, at
@@ -38,8 +38,8 @@
  * - In your metabox/setting field: call <code>XTeam_Media_Selector_Field::the_field()</code>
  * - Be sure to pass the required arguments to the above methods.
  *
- * @author Dzikri Aziz <dzikri@x-team.com>
- * @author Weston Ruter <weston@x-team.com>
+ * @author Dzikri Aziz <dzikri@xwp.co>
+ * @author Weston Ruter <weston@xwp.co>
  */
 class XTeam_Media_Selector_Field {
 

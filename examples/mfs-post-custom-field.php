@@ -3,9 +3,9 @@
 /**
  * Plugin Name: Media Selector Field Demo :: Post meta
  * Description: A demo plugin for Media Selector Field
- * Plugin URI: http://x-team.com/wordpress/
- * Author: X-Team, Dzikri Aziz
- * Author URI: http://x-team.com/wordpress/
+ * Plugin URI: https://xwp.co/
+ * Author: XWP, Dzikri Aziz
+ * Author URI: https://xwp.co/
  * Version: 0.1
  * License: GPLv2+
  * Text Domain: media-selector-field
